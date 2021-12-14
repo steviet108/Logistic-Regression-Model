@@ -33,8 +33,6 @@ Credit risk commonly poses classification problems becasue the data it relies on
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
   - Accuracy Score was 95%
@@ -52,13 +50,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 ## Summary
 
 
-* Which one seems to perform best? How do you know it performs best?
-
 The accuracy for model 1 was 95% and the accuracy for model number 2 was 99%, The accuracy measures how often the model was correct. It does so by calculating the ratio of the number of correct predictions to the total number of outcomes.
 The precision measures how confident we are that the model correctly made the positive predictions. Here we can see that model 1 has a 100% precision for healthy loans and 85% for high-risk loans, that is for the times that model 1 predicted a loan would be healthy, 100% of the time they were healthy, and 85% of the times the model 1 predicted a loan would be unhealthy, they were unhealthy. We can look at it the same way for model number 2 along with the respective % above. 
 Recall measures the number of loans that defaulted that were previously classified as high risk. That is to say, Recall does a great job of measuring the loans that we know will default and indeed defaulted. So Recall does a good job of measuring the high-risk loans, while precision does a good job of measuring the healthy loans. What we are most concerned here with healthy loans that default, and because of that, My recomendation is model 2 does a better job of predicting the number of healthy loans that default. We see this in the confusion matrix for the second model gave us a number of 4 loans that were predicted healthy that defaulted vrs in model 1 we saw there were 56 healthy loans that defaulted. As well as the accuracy for model 2 is higher than model number 1. I would say the measures we took in model 2 to balance the training data for the model, paid off well in the high % number we got for recall in model 2.
 
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
 
 I think that its more important to predict the healthy loans that will default, because this seems the most unexpected. Therefore there were no mitigating factors worked into the loans. For example, a high risk loan is probably smaller and requires collateral and/or maybe a cosigner, whereas healthy loans are large and require less collateral, and no co-signers. So it seems to ma to the lender, a healthy loan that defaults is the most damaging and unexpected. I would want to predict this class above all else.
 To answer the question, does performance depend on the problem we are trying to solve? I would say that the performance of the model varies depending on the quality of the train data we feed it, and in this case balancing the train data increased the performance of the predicting. 
