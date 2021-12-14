@@ -1,7 +1,7 @@
 # Logistic Regression 
 
 
-![ml_image](machine_learning_image.png)
+![ml_image](Resources/machine_learning_image.png)
 
 
 ---
